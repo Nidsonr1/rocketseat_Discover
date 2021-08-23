@@ -1,1 +1,3 @@
-console.log('Hello Teste')
+const getFlag = require('./export');
+
+console.log(`Oi ${getFlag.getFlag('--name')}.`)
